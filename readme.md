@@ -32,6 +32,12 @@
 * `require_self` insert the body of the current source file at the location of this line
 * Careful with `require_tree` if assets need to be required in a particular order
 
+### Essential rake tasks
+
+* `rake assets:precompile`
+* `rake assets:clean`
+* `rake assets:clobber`
+
 ### Index files
 
 * The asset pipeline will treat files named `index` as a manifest for the directory its in
@@ -44,12 +50,6 @@
   `.class { background-image: url(<%= asset_path 'image.png' %>) }`
 * `asset_uri` to get the uri
 * If you put a `.erb` extension on your css files, the asset pipeline will automatically evaluate that erb
-
-### Essential rake tasks
-
-* `rake assets:precompile`
-* `rake assets:clean`
-* `rake assets:clobber`
 
 ## Resources
 
