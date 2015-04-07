@@ -21,6 +21,8 @@
 * When a file is referenced in a manifest, sprockets will search for it in the three default asset locations
 * `//=` (JS) or `*=` (CSS) syntax for reading directives
 * Comments that are directives will be stripped out of the compiled files
+* By convention each controller has an associated css and a js manifest file (if you use a generator, that's created for you)
+* For example: `app/assets/javascripts/posts.js` and `app/assets/stylesheets/posts.css` if you have a `PostsController`
 
 #### Common directives
 * `require` inserts the contents of the asset source file specified
