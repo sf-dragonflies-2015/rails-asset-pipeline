@@ -35,7 +35,8 @@
 ### Asset location helpers
 
 * You have some helpers available to you to find the location of asset files
-* `asset_path` to get the path of an image, for example `.class { background-image: url(<%= asset_path 'image.png' %>) }`
+* `asset_path` to get the path of an image, for example:
+* `.class { background-image: url(<%= asset_path 'image.png' %>) }`
 * `asset_uri` to get the uri
 * If you put a `.erb` extension on your css files, the asset pipeline will automatically evaluate that erb
 
