@@ -14,6 +14,7 @@
 * `lib/assets` - First party libraries that are written by your team or company that may be used across projects
 * `vendor/assets` - Third party assets like javascript libraries or CSS frameworks
 * `public/assets` - Where compiled assets are placed by the asset pipeline to be served as static assets in production
+* You don't need to do anything in the layout to get assets included
 
 ### Manifest files
 
