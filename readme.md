@@ -45,7 +45,7 @@
 * `asset_uri` to get the uri
 * If you put a `.erb` extension on your css files, the asset pipeline will automatically evaluate that erb
 
-### Helpful rake tasks
+### Essential rake tasks
 
 * `rake assets:precompile`
 * `rake assets:clean`
