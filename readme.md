@@ -5,7 +5,7 @@
 * Assets are CSS, JS, image files
 * Asset pipeline gives you precompilation, concatenation, minification, and fingerprinting of assets in a centralized way
 * The asset pipeline compiles Sass, CoffeeScript etc to CSS/JS
-* (Sprockets gem)[https://github.com/sstephenson/sprockets] packages the assets for you
+* [Sprockets gem](https://github.com/sstephenson/sprockets) packages the assets for you
 * It's all enabled by default and set up for you out of the box with Rails
 
 ### Asset organization in your app
@@ -47,5 +47,5 @@
 
 ## Resources
 
-(Asset Pipeline Rails Guide)[http://guides.rubyonrails.org/asset_pipeline.html]
-(Sprockets)[https://github.com/sstephenson/sprockets]
+[Asset Pipeline Rails Guide](http://guides.rubyonrails.org/asset_pipeline.html)
+[Sprockets](https://github.com/sstephenson/sprockets)
