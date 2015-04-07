@@ -30,6 +30,7 @@
 * `require` inserts the contents of the asset source file specified
 * `require_tree` recursively requires all files in all subdirectories of the directory specified
 * `require_self` insert the body of the current source file at the location of this line
+* Careful with `require_tree` if assets need to be required in a particular order
 
 ### Index files
 
