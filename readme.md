@@ -47,11 +47,11 @@
 
 * You have some helpers available to you to find the location of asset files
 * `asset_path` to get the path of an image, for example:
-  `.class { background-image: url(<%= asset_path 'image.png' %>) }`
+* `.class { background-image: url(<%= asset_path 'image.png' %>) }`
 * `asset_uri` to get the uri
 * If you put a `.erb` extension on your css files, the asset pipeline will automatically evaluate that erb
 
 ## Resources
 
-[Asset Pipeline Rails Guide](http://guides.rubyonrails.org/asset_pipeline.html)
-[Sprockets](https://github.com/sstephenson/sprockets)
+* [Asset Pipeline Rails Guide](http://guides.rubyonrails.org/asset_pipeline.html)
+* [Sprockets](https://github.com/sstephenson/sprockets)
